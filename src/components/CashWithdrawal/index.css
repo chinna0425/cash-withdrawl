@@ -1,0 +1,72 @@
+.background-container {
+  background-color: #ffffff;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.inner-container {
+  background-color: #150b3e;
+  border-radius: 10px;
+  width: 80%;
+  max-width: 420px;
+  padding: 20px;
+}
+.heading-style {
+  background-color: #c7d2fe;
+  height: 60px;
+  width: 60px;
+  border-radius: 46px;
+  text-align: center;
+  padding-top: 12px;
+  padding-right: 5px;
+  padding-left: 2px;
+  color: #7c3aed;
+  font-family: 'Roboto';
+  font-size: 28px;
+  font-weight: 500;
+  margin-right: 15px;
+}
+.profile-container {
+  display: flex;
+  align-items: center;
+}
+.paragraph-style {
+  color: #d4d2db;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 400;
+}
+.balance-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.unorder-list {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  list-style-type: none;
+  flex-wrap: wrap;
+}
+.balance {
+  color: #c4c4c4;
+  font-family: 'Roboto';
+  font-size: 15px;
+}
+.amount {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 24px;
+}
+.rupees {
+  color: #c4c4c4;
+  font-family: 'Roboto';
+  font-size: 12px;
+}
+@media screen and (max-width: 767px) {
+  .inner-container {
+    width: 90%;
+    max-width: 550px;
+  }
+}
